@@ -10,4 +10,4 @@ phases:
   build:
     commands:
       - echo "Deploying to EC2"
-      - ssh -i key.pem -o StrictHostKeyChecking=no ubuntu@13.232.8.34 "cd ~/node-cicd-app && git pull && npm install && pm2 restart app"
+      - ssh -i key.pem -o StrictHostKeyChecking=no ubuntu@3.110.127.233"cd ~/node-cicd-app && git pull && npm install && pm2 restart app"
